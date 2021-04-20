@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  loriot-html-parser:
+    container_name: loriot-html-parser
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: "host"
+    restart: always

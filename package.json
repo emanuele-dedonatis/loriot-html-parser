@@ -1,0 +1,28 @@
+{
+  "name": "loriot-http-parser",
+  "version": "1.0.0",
+  "description": "Example on how to parse LORIOT HTTP push output message and publish data on MQTT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuele-dedonatis/loriot-http-parser.git"
+  },
+  "author": "Emanuele De Donatis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuele-dedonatis/loriot-http-parser/issues"
+  },
+  "homepage": "https://github.com/emanuele-dedonatis/loriot-http-parser#readme",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "typescript": "^4.2.4"
+  }
+}
