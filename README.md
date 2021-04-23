@@ -16,6 +16,5 @@ I'm using this parser on a Raspberry PI where I've HomeAssistant and an Mosquitt
 Since my Raspberry doesn't have a valid certificate, I can't publish directly from LORIOT to Mosquitto. Morehover, I'd like to parse my sensor payload in an easier way.
 
 Therefore, LORIOT is posting sensor data through HTTP PUSH and this parser will publish the parsed payload on my MQTT broker.
-![usage](https://user-images.githubusercontent.com/6308233/115861264-e4dde700-a432-11eb-8a54-dfd7e2e8c1df.png)
 
-
+![usage](https://user-images.githubusercontent.com/6308233/115861951-c9271080-a433-11eb-99e6-c85a4ed688f5.jpg)
